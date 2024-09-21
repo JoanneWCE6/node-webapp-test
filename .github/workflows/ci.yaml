@@ -7,7 +7,7 @@ on: [workflow_dispatch]
 
 env:            
   AWS_REGION: ap-southeast-1      
-  ECR_REPOSITORY: public.ecr.aws/sctp-sandbox/joannew/simple-node-app
+  ECR_REPOSITORY: joannew/simple-node-app
 
 jobs:
   build:
